@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+  
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  }
+}
+@layer components {
+  body {
+    @apply min-h-screen grid place-content-center font-Roboto font-normal bg-clr-darkGray text-clr-black;
+  }
+}
+.custom-list-before-svg li::before{
+  content: url("/images/icon-list.svg");
+  padding-inline-end: .5rem;
+}
