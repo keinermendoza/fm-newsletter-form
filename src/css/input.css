@@ -23,7 +23,7 @@
 }
 @layer components {
   body {
-    @apply min-h-screen grid place-content-center font-Roboto font-normal bg-clr-darkGray text-clr-black;
+    @apply min-h-screen lg:grid place-content-center font-Roboto font-normal bg-clr-darkGray text-clr-black;
   }
 }
 .custom-list-before-svg li::before{
