@@ -33,6 +33,7 @@ export default function NewsletterCard({email, setEmail, handleEmailValidation, 
                 onChange={(e) => setEmail(e.target.value)}
                 id="email"
                 name='email'
+                autoFocus
                 className={`w-full p-4 px-6 border border-clr-gray rounded-lg focus:outline-none  ${isError && 'text-clr-red border-clr-red bg-clr-red bg-opacity-10'}`} 
                 placeholder="email@company.com" 
                 type="email" />

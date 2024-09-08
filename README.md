@@ -9,8 +9,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 ### Links
 
-- Solution URL: [See in Frontend Mentor](https://www.frontendmentor.io/solutions/four-cards-in-react-css-grids-SBa1yiUrt4)
-- Live Site URL: [Hosted on Vercel](https://fm-four-cards-livid.vercel.app/)
+- Solution URL: [See in Frontend Mentor](https://www.frontendmentor.io/solutions/newsletter-and-message-components-built-in-react-tailwindcss-FRAxHPUA_O)
+- Live Site URL: [Hosted on Vercel](https://fm-newsletter-form.vercel.app/)
 
 ## My process
 

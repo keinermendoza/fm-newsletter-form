@@ -3,6 +3,7 @@ import './css/output.css'
 import NewsletterCard from './ui/NewsletterCard'
 import SuccessMessage from './ui/SuccessMessage'
 
+// REGEX COPIED FROM https://regexr.com/3e48o
 const EMAIL_REGEX = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
 
 function App() {
